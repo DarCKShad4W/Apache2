@@ -42,12 +42,12 @@ sudo vi /etc/httpd/conf.d/vhost.conf
 
 NameVirtualHost *:80
 <VirtualHost *:80>
-ServerAdmin webmaster@MyWebsite.com (etite your server admin)
-ServerName MyWebsite.com (your server name)
-ServerAlias www.MyWebsite.com (site name)
-DocumentRoot /var/www/html/MyWebsite.com/public_html/ **(whare the file is located located in your pc)**
-ErrorLog /var/www/html/MyWebsite.com/logs/error.log **(whare the log file located located in your pc)**
-CustomLog /var/www/html/MyWebsite.com/logs/access.log **combined (whare the custom log file located in your pc)**
+ServerAdmin webmaster@MyWebsite.com (change into your server admin)
+ServerName MyWebsite.com (change into your server name)
+ServerAlias www.MyWebsite.com (change into site name)
+DocumentRoot /var/www/html/MyWebsite.com/public_html/ **(change into whare the file is located located in your pc)**
+ErrorLog /var/www/html/MyWebsite.com/logs/error.log **(change into whare the log file located located in your pc)**
+CustomLog /var/www/html/MyWebsite.com/logs/access.log **combined (change into whare the custom log file located in your pc)**
 </VirtualHost>
  
 sudo mkdir /var/www/MyWebsite/{public_html, logs}
